@@ -19,6 +19,6 @@
         "alwaysStrict": true,
         "resolveJsonModule": true
     },
-    "include": ["types/index.d.ts", "types/declarations.d.ts"],
-    "exclude": ["node_modules", "tests"]
+    "include": ["./geektrust"],
+    "exclude": ["node_modules", "tests"],
 }

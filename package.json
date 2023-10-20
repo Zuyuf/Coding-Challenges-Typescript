@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "compile": "tsc",
+        "dev:metro": "npx ts-node ./geektrust/MetroCard/metro_card.ts ./sample_inputs/input1.txt"
     },
     "keywords": [],
     "author": "",
